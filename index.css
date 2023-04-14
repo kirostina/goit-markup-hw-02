@@ -26,3 +26,156 @@ body {
 .link {
     text-decoration: none;
 }
+/* -------Top Line-------*/
+.header{
+    background-color: var(--color-white);
+}
+.logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        color: var(--color-iris);
+}
+.logo-white{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        color: var(--color-navy-blue);
+}
+.top :hover,
+.top :focus {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--color-navy-blue)
+}
+.address{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--color-slate)
+}
+/* -----hero image------ */
+.main{
+    background-color: var(--color-navy-blue);
+}
+.header{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        color: var(--color-white)
+}
+.btn :hover,
+.btn :focus{
+    display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 32px;
+        gap: 10px;
+    
+        position: absolute;
+        width: 169px;
+        height: 56px;
+        left: 636px;
+        top: 428px;
+        color: var(--color-iris);
+}
+/* Section1 */
+.about{
+    background-color: var(--color-white);
+}
+.about h3{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--color-navy-blue);
+}
+.about p{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--color-slate);
+}
+/* Section2 */
+.whatwad {
+    background-color: var(--color-white);
+}
+.whatwad h2{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        color: var(--color-navy-blue);
+}
+/* Section3 */
+.team{
+    background-color: var(--color-cloud);
+}
+.team h2{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        color: var(--color-navy-blue);
+}
+.team h3{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--color-navy-blue);
+}
+.team p{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--color-slate);
+}
+/* Footer */
+.footer{
+    background-color: var(--color-navy-blue);
+}
+.logos {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--color-iris);
+}
+
+.logo-cloud {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--color-cloud);
+}
+.footer p{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--color-cloud);
+}
