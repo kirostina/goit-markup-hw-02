@@ -20,6 +20,7 @@ body {
 }
 li{
     list-style: none;
+    text-decoration: none;
 }
 .list {
     list-style: none;
@@ -62,7 +63,10 @@ li{
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
+        list-style: none;
+        text-decoration: none;
         color: var(--color-navy-blue)
+        
 }
 .address{
     font-family: 'Roboto';
