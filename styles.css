@@ -18,7 +18,9 @@ body {
     background-color: var(--color-white);
     letter-spacing: 0.02em;
 }
-
+li{
+    list-style: none;
+}
 .list {
     list-style: none;
 }
@@ -54,7 +56,7 @@ body {
         line-height: 21px;
         color: var(--color-navy-blue);
 }
-.top :hover {
+.top a :hover {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -82,8 +84,8 @@ body {
         line-height: 60px;
         color: var(--color-white)
 }
-.btn :hover,
-.btn :focus{
+button :hover,
+button :focus{
     display: flex;
         flex-direction: row;
         align-items: flex-start;
