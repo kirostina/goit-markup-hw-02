@@ -1,0 +1,102 @@
+:root {
+    --color-iris: rgba(77, 90, 229, 1);
+    --color-ocean: rgba(64, 75, 191, 1);
+    --color-navy-blue: rgba(46, 47, 66, 1);
+    --color-green: rgba(49, 208, 170, 1);
+    --color-slate: rgba(67, 68, 85, 1);
+    --color-light-slate: rgba(142, 143, 153, 1);
+    --color-cornflower: rgba(231, 233, 252, 1);
+    --color-cloud: rgba(244, 244, 253, 1);
+    --color-navy-blue-modal: rgba(46, 47, 66, 0.400);
+    --color-grey: rgba(46, 47, 66, 0.700);
+    --color-white: rgba(255, 255, 255, 1);
+    --color-dairy: rgba(252, 252, 252, 1);
+}
+
+.text-style-header-1 {
+    font-size: 56px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.text-style-header-2 {
+    font-size: 36px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.text-style-header-3 {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.text-style-body {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.text-style-body-medium {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.text-style-button-text {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.text-style-small-text {
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.text-style-link-text {
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+    text-transform: none;
+}
