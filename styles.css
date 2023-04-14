@@ -64,7 +64,7 @@ body {
         color: var(--color-slate)
 }
 /* -----hero image------ */
-.main{
+.hero{
     background-color: var(--color-navy-blue);
 }
 .header{
