@@ -76,7 +76,7 @@ li{
 .hero{
     background-color: var(--color-navy-blue);
 }
-.header{
+.hero h1{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -84,14 +84,9 @@ li{
         line-height: 60px;
         color: var(--color-white)
 }
-button :hover,
-button :focus{
-    display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 16px 32px;
-        gap: 10px;
-    
+.hero-btn :hover,
+.hero-btn :focus{
+    display: flex;   
         position: absolute;
         width: 169px;
         height: 56px;
