@@ -75,7 +75,8 @@ li {
   text-decoration: none;
   color: var(--color-navy-blue);
 }
-.address {
+.address :hover,
+.address :focus {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -198,41 +199,37 @@ li {
 .btns {
   background-color: var(--color-cloud);
 }
-.btns-white :hover {
+.btns h1 {
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.btns-white {
   font-family: "Roboto";
-  font-style: normal;
+  font-style: sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--color-white);
-  background: var(--color-ocean);
+  background: #4d5ae5;
+  cursor: pointer;
 }
+.btns-white :hover,
 .btns-white :focus {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--color-white);
-  background: var(--color-ocean);
+  background-color: #404bbf;
 }
-.btns-other :hover {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--color-iris);
-  background: var(--color-cornflower);
-}
+.btns-other :hover,
 .btns-other :focus {
   font-family: "Roboto";
-  font-style: normal;
+  font-style: sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  color: var(--color-white);
-  background: var(--color-ocean);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  background: var(--color-cornflower);
+  cursor: pointer;
 }
 .row {
   background-color: var(--color-cornflower);
