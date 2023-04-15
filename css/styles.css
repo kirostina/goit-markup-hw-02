@@ -1,16 +1,16 @@
 :root {
-    --color-iris: rgba(77, 90, 229, 1);
-    --color-ocean: rgba(64, 75, 191, 1);
-    --color-navy-blue: rgba(46, 47, 66, 1);
-    --color-green: rgba(49, 208, 170, 1);
-    --color-slate: rgba(67, 68, 85, 1);
-    --color-light-slate: rgba(142, 143, 153, 1);
-    --color-cornflower: rgba(231, 233, 252, 1);
-    --color-cloud: rgba(244, 244, 253, 1);
-    --color-navy-blue-modal: rgba(46, 47, 66, 0.400);
-    --color-grey: rgba(46, 47, 66, 0.700);
-    --color-white: rgba(255, 255, 255, 1);
-    --color-dairy: rgba(252, 252, 252, 1);
+    --color-iris: #4d5ae5;
+        --color-ocean: #404bbf;
+        --color-navy-blue: #2e2f42;
+        --color-green: #31d0aa;
+        --color-slate: #434455;
+        --color-light-slate: #8e8f99;
+        --color-cornflower: #e7e9fc;
+        --color-cloud: #f4f4fd;
+        --color-navy-blue-modal: #2e2f42;
+        --color-grey: #2e2f42;
+        --color-white: #ffffff;
+        --color-dairy: #fcfcfc;
 }
 
 body {
