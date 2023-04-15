@@ -172,18 +172,18 @@ li{
 }
 .logos {
     font-family: 'Raleway';
-    font-style: normal;
+    font-style: sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     color: var(--color-iris);
 }
 
 .logo-cloud {
     font-family: 'Raleway';
-    font-style: normal;
+    font-style: sans-serif;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 1.17;
     line-height: 21px;
     color: var(--color-cloud);
 }
