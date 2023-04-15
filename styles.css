@@ -187,3 +187,46 @@ li{
         line-height: 24px;
         color: var(--color-cloud);
 }
+/* Portfolio - buttons */
+.btns{
+    background-color: var(--color-cloud);
+}
+.btns-white :hover,
+.btns-white :focus{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: var(--color-white);
+background: var(--color-ocean);
+}
+.btns-other :hover,
+.btns-other :focus{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: var(--color-iris);
+background: var(--color-cornflower);
+}
+.row{
+    background-color: var(--color-cornflower);
+}
+.row h3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: var(--color-navy-blue);
+}
+.row p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: var(--color-slate);
+}
