@@ -70,7 +70,8 @@ li {
   text-decoration: none;
 }
 .top-studio,
-.top-port {
+.top-port,
+.top-cont {
   font-family: "Roboto";
   font-style: sans-serif;
   font-weight: 500;
@@ -83,7 +84,9 @@ li {
 .top-studio :hover,
 .top-studio :focus,
 .top-port :hover,
-.top-port :focus {
+.top-port :focus,
+.top-cont :hover,
+.top-cont :focus{
   color: #404bbf;
 }
 .address {
