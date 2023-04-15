@@ -44,6 +44,9 @@ text-align: center;
 letter-spacing: 0.02em;
   color: var(--color-white);
 }
+.logo{
+    font-family: "Raleway", sans-serif;
+}
 .logos {
   font-family: "Raleway", sans-serif;
   font-style: sans-serif;
