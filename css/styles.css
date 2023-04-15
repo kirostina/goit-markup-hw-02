@@ -34,18 +34,18 @@ li {
 .hero {
   background-color: var(--color-white);
 }
-.hero-sol{
+.hero-sol {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--color-white);
 }
-.logo{
-    font-family: "Raleway", sans-serif;
+.logo {
+  font-family: "Raleway", sans-serif;
 }
 .logos {
   font-family: "Raleway", sans-serif;
@@ -70,9 +70,10 @@ letter-spacing: 0.02em;
 .link {
   text-decoration: none;
 }
-.top a :hover {
+.top-studio,
+.top-port {
   font-family: "Roboto";
-  font-style: normal;
+  font-style: sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -80,14 +81,25 @@ letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--color-navy-blue);
 }
-.address :hover,
-.address :focus {
-  font-family: "Roboto";
+.top-studio :hover,
+.top-studio :focus,
+.top-port :hover,
+.top-port :focus {
+  color: #404bbf;
+}
+.address {
   font-style: normal;
+}
+.mail :hover,
+.mail :focus,
+.tel :hover,
+.tel :focus {
+  font-family: "Roboto";
+  font-style: sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  color: var(--color-slate);
+  line-height: 1.5;
+  color: #404bbf;
 }
 /* -----hero image------ */
 .hero {
@@ -95,14 +107,14 @@ letter-spacing: 0.02em;
 }
 .hero h1 {
   font-family: "Roboto";
-  font-style: normal;
+  font-style: sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   color: var(--color-white);
 }
-.hero-btn  {
-     font-family: "Roboto";
+.hero-btn {
+  font-family: "Roboto";
   font-style: sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -113,8 +125,8 @@ letter-spacing: 0.02em;
   cursor: pointer;
 }
 .hero-btn :hover,
-.hero-btn :focus{
-    background-color: #404bbf;
+.hero-btn :focus {
+  background-color: #404bbf;
 }
 /* Section1 */
 .about {
