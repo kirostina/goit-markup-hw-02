@@ -44,24 +44,7 @@ li {
   letter-spacing: 0.02em;
   color: var(--color-white);
 }
-.hero-btn {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    background-color: #4D5AE5;
-    color: #ffffff;
-    cursor: pointer;
-}
-.hero-btn :hover {
-  color: #404BBF;
-}
-.hero-btn :focus {
-    color: #404BBF;
-}
+
 .logo {
   font-family: "Raleway", sans-serif;
 }
@@ -135,19 +118,21 @@ li {
 .hero-sol{
     line-height: 1.2;
 }
-.hero- button{
+.hero-btn{
   font-family: "Roboto", sans-serif;
   font-style: sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+align-items: center;
+    text-align: center;
   letter-spacing: 0.04em;
   color: var(--color-white);
   background: #4d5ae5;
   cursor: pointer;
 }
-.hero button :hover,
-.hero button :focus {
+.hero-btn :hover,
+.hero-btn :focus {
   background-color: #404BBF;
 }
 /* Section1 */
