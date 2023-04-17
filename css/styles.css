@@ -253,8 +253,7 @@ li {
   letter-spacing: 0.02em;
 }
 
-.btns-other :hover,
-.btns-other :focus {
+.btns-other{
   font-family: "Roboto", sans-serif;
   font-style: sans-serif;
   font-weight: 500;
