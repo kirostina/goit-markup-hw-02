@@ -44,7 +44,7 @@ li {
   letter-spacing: 0.02em;
   color: var(--color-white);
 }
-.hero-btn{
+.hero button{
     font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     font-weight: 500;
@@ -54,10 +54,10 @@ li {
     color: #ffffff;
     cursor: pointer;
 }
-.hero-btn :hover {
+.hero button :hover {
   color: #404BBF;
 }
-.hero-btn :focus {
+.hero button :focus {
     color: #404BBF;
 }
 .logo {
