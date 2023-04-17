@@ -248,21 +248,7 @@ li {
   text-align: center;
   letter-spacing: 0.02em;
 }
-.btns-white {
-  font-family: "Roboto", sans-serif;
-  font-style: sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--color-white);
-  background: #4d5ae5;
-  cursor: pointer;
-}
-.btns-white :hover,
-.btns-white :focus {
-  background-color: #404bbf;
-}
+
 .btns-other :hover,
 .btns-other :focus {
   font-family: "Roboto", sans-serif;
@@ -272,11 +258,26 @@ li {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-iris);
-  background: var(--color-cornflower);
+  background-color: var(--color-cloud);
   cursor: pointer;
+}
+.btns-other :hover,
+.btns-other :focus {
+    background-color: #404BBF;
 }
 .img_first {
   letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+.app{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
 }
 
 .row {
