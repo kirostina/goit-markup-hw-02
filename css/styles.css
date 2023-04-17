@@ -158,15 +158,13 @@ li {
   color: var(--color-slate);
 }
 /* Section2 */
-.whatwad {
-  background-color: var(--color-white);
-}
-.whatwad h2 {
+
+.whatwad-list {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
