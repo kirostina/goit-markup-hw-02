@@ -34,6 +34,9 @@ li {
 .hero {
   background-color: var(--color-white);
 }
+.hidden {
+    line-height: 1.2;
+}
 .hero-sol {
   font-family: "Roboto";
   font-style: normal;
