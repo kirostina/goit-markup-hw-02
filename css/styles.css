@@ -80,10 +80,10 @@ li {
   text-decoration: none;
   color: var(--color-navy-blue);
 }
-.top-menu :hover {
+.top-menu:hover {
   color: #404bbf;
 }
-.top-menu :focus {
+.top-menu:focus {
     color: #404bbf;
 }
 .address {
@@ -97,10 +97,10 @@ li {
   line-height: 1.5;
   color: var(--color-slate);
 }
-.contacts :hover {
+.contacts:hover {
   color: #404bbf;
 }
-.contacts :focus {
+.contacts:focus {
     color: #404bbf;
 }
 /* -----hero image------ */
@@ -263,11 +263,11 @@ li {
   background-color: var(--color-cloud);
   cursor: pointer;
 }
-.all :hover {
+.all:hover {
     color: #FFFFFF;
     background-color: #404BBF;
 }
-.all :focus {
+.all:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
