@@ -80,7 +80,7 @@ li {
   text-decoration: none;
   color: var(--color-navy-blue);
 }
-.top-menu :hover{
+.top-menu :hover {
   color: #404bbf;
 }
 .top-menu :focus {
@@ -115,10 +115,10 @@ li {
   line-height: 1.07;
   color: var(--color-white);
 }
-.hero-sol{
+.hero-sol {
     line-height: 1.07;
 }
-.hero-btn{
+.hero-btn {
   font-family: "Roboto", sans-serif;
   font-style: sans-serif;
   font-weight: 500;
@@ -263,7 +263,7 @@ li {
   background-color: var(--color-cloud);
   cursor: pointer;
 }
-.all :hover{
+.all :hover {
     color: #FFFFFF;
     background-color: #404BBF;
 }
@@ -279,7 +279,7 @@ li {
   letter-spacing: 0.02em;
   color: var(--color-grey);
 }
-.app{
+.app {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
