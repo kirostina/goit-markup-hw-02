@@ -112,11 +112,11 @@ li {
   font-style: sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.2;
+  line-height: 1.07;
   color: var(--color-white);
 }
 .hero-sol{
-    line-height: 1.2;
+    line-height: 1.07;
 }
 .hero-btn{
   font-family: "Roboto", sans-serif;
@@ -263,11 +263,11 @@ li {
   background-color: var(--color-cloud);
   cursor: pointer;
 }
-.btns-other :hover{
+.all :hover{
     color: #FFFFFF;
     background-color: #404BBF;
 }
-.btns-other :focus {
+.all :focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
