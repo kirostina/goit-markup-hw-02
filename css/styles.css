@@ -45,8 +45,8 @@ li {
   color: var(--color-white);
 }
 .hero-btn :hover,
-.hero-btn :focus{
-    color: #404BBF;
+.hero-btn :focus {
+  color: #404bbf;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -84,28 +84,23 @@ li {
   color: var(--color-navy-blue);
 }
 .top-menu :hover,
-.top-menu :focus{
-  color: #404BBF;
+.top-menu :focus {
+  color: #404bbf;
 }
 .address {
   font-style: normal;
 }
-.contacts{
-    font-family: "Roboto";
-        font-style: sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        color: var(--color-slate);
-}
-.contacts :hover,
-.contacts :focus{
+.contacts {
   font-family: "Roboto";
   font-style: sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #404BBF;
+  color: var(--color-slate);
+}
+.contacts :hover,
+.contacts :focus {
+  color: #404bbf;
 }
 /* -----hero image------ */
 .hero {
@@ -147,7 +142,7 @@ li {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.07;
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
 .about p {
@@ -168,17 +163,17 @@ letter-spacing: 0.02em;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--color-navy-blue);
 }
 /* Section3 */
 .team {
   background-color: var(--color-cloud);
 }
-.team-list{
-    background-color: #FFFFFF;
+.team-list {
+  background-color: #ffffff;
 }
 .team h2 {
   font-family: "Roboto";
@@ -186,9 +181,9 @@ text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--color-navy-blue);
 }
 .team h3 {
@@ -197,11 +192,11 @@ text-transform: capitalize;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
-.team-desk{
-    font-size: 16px;
+.team-desk {
+  font-size: 16px;
 }
 .team p {
   font-family: "Roboto";
@@ -221,8 +216,8 @@ letter-spacing: 0.02em;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--color-iris);
 }
 
@@ -232,8 +227,8 @@ text-transform: uppercase;
   font-weight: 800;
   font-size: 1.17;
   line-height: 21px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--color-cloud);
 }
 .footer p {
@@ -280,8 +275,8 @@ text-transform: uppercase;
   background: var(--color-cornflower);
   cursor: pointer;
 }
-.img_first{
-    letter-spacing: 0.02em;
+.img_first {
+  letter-spacing: 0.02em;
 }
 
 .row {
