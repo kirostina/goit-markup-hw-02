@@ -245,10 +245,10 @@ text-transform: uppercase;
   color: var(--color-cloud);
 }
 /* Portfolio - buttons */
-.btns {
+.porfolio-section {
   background-color: var(--color-cloud);
 }
-.btns h1 {
+.porfolio-section h1 {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
