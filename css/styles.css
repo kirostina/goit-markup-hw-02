@@ -177,6 +177,9 @@ text-transform: capitalize;
 .team {
   background-color: var(--color-cloud);
 }
+.team-list{
+    background-color: #FFFFFF;
+}
 .team h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -197,6 +200,9 @@ text-transform: capitalize;
 letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
+.team-desk{
+    font-size: 16px;
+}
 .team p {
   font-family: "Roboto";
   font-style: normal;
@@ -210,11 +216,13 @@ letter-spacing: 0.02em;
   background-color: var(--color-navy-blue);
 }
 .logos {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
   color: var(--color-iris);
 }
 
@@ -224,6 +232,8 @@ letter-spacing: 0.02em;
   font-weight: 800;
   font-size: 1.17;
   line-height: 21px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
   color: var(--color-cloud);
 }
 .footer p {
