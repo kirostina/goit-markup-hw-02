@@ -157,7 +157,9 @@ li {
   color: var(--color-slate);
 }
 /* Section2 */
-
+.whatwad {
+    background-color: #F4F4FD;
+}
 .whatwad-list {
   font-family: "Roboto";
   font-style: normal;
