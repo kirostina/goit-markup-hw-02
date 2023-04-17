@@ -131,8 +131,8 @@ li {
   background: #4d5ae5;
   cursor: pointer;
 }
-.hero-btn :hover,
-.hero-btn :focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #404BBF;
 }
 /* Section1 */
