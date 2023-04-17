@@ -142,7 +142,7 @@ li {
 .about {
   background-color: var(--color-white);
 }
-.about h3 {
+.about-list {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
