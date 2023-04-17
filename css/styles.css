@@ -115,11 +115,13 @@ li {
   font-style: sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.2;
   color: var(--color-white);
 }
-.hero-btn,
-.hero button {
+.hero-sol{
+    line-height: 1.2;
+}
+.hero- button{
   font-family: "Roboto", sans-serif;
   font-style: sans-serif;
   font-weight: 500;
@@ -130,11 +132,9 @@ li {
   background: #4d5ae5;
   cursor: pointer;
 }
-.hero-btn :hover,
-.hero-btn :focus,
-.hero-btn button :hover,
-.hero-btn button :focus {
-  background-color: #404bbf;
+.hero button :hover,
+.hero button :focus {
+  background-color: #404BBF;
 }
 /* Section1 */
 .about {
@@ -264,7 +264,9 @@ li {
   background-color: var(--color-cloud);
   cursor: pointer;
 }
-.btns-other :hover,
+.btns-other :hover{
+    background-color: #404BBF;
+}
 .btns-other :focus {
     background-color: #404BBF;
 }
